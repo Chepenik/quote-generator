@@ -38,3 +38,15 @@ declare module 'openai' {
 
   export { OpenAI };
 }
+
+declare global {
+  namespace NodeJS {
+    interface ProcessEnv {
+      OPENAI_API_KEY: string;
+      // Add other environment variables here
+    }
+  }
+}
+
+// This export is necessary to make this a module
+export {}
