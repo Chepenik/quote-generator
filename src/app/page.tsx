@@ -18,9 +18,9 @@ export default function Home() {
   const [topicError, setTopicError] = useState('')
 
   const themes = [
-    'Inspiration', 'Wisdom', 'Success', 'Leadership',
-    'Courage', 'Innovation', 'Perseverance', 'Growth',
-    'Creativity', 'Integrity', 'Resilience', 'Vision'
+    'Stoicism', 'War', 'Philosophy', 'Politics', 
+    'Existentialism', 'Ethics', 'Revolution', 'Justice', 
+    'Power', 'Freedom', 'Nihilism', 'Capitalism'
   ]
 
   const generateQuote = () => {
