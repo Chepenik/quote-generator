@@ -18,7 +18,7 @@ export async function POST(req: Request) {
       messages: [
         { 
           role: "system", 
-          content: "You are a quote generator. Generate a quote and its author based on the given topic. Always return a JSON object with 'quote' and 'author' keys."
+          content: "You are a quote generator. Generate a unique, thought-provoking quote and its fictional author based on the given topic. Always return a JSON object with 'quote' and 'author' keys. Ensure each response is different, even for the same topic. Do your best to always generate a new unique quote for the end user."
         },
         { 
           role: "user", 
